@@ -1,0 +1,20 @@
+Quantidade de vendedores da loja - inteiro
+Nome da rua, com número e complemento - string
+Preço do etanol comum - real 
+Estado de iluminação de uma lâmpada - booleano
+CEP do endereço, com hífen - string
+Mostrador com um dígito dentro do elevador, indicando o andar do prédio onde ele está passando - inteiro
+Led que indica o pressionamento do botão do elevador - booleano 
+Data de aniversário do professor - data
+Peso do prato na balança do restaurante - real
+Número de bois no curral da fazenda - inteiro
+Dia completo da páscoa nesse ano - data
+Quantidade de laranjas na caixa - inteiro
+Uma vogal minúscula - caractere
+Título de um livro - string
+Limite do cartão de crédito - inteiro
+Horário de transmissão do jogo - data
+Altura de um prédio - inteiro 
+Páginas do caderno - inteiro
+Sala de reunião está disponível (ou ocupada) - booleano
+Alternativas do enunciado da questão de múltipla escolha - booleano

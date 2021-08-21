@@ -2,7 +2,6 @@ const prompt = require("prompt-sync")();
 
 var siglaUF = prompt('Insira a sigla UF do seu estado'); 
 
-
 switch (siglaUF) { 
 case 'RJ': nomeCompleto = 'Rio de Janeiro'; break; 
 case 'MG': nomeCompleto = 'Minas Gerais'; break;  

@@ -8,14 +8,9 @@ const prompt = require('prompt-sync')();
 var genero = prompt("Digite seu gênero: ");
 var ano = prompt("Digite seu ano de nascimento: ");
 
-var genf = genero == "F" && ano <= 2000;
-var genm = genero == "M" && ano <= 2003;
+var emancipado = genero == "masculino" && ano < 2004 || genero == "feminino" && ano < 2001;
 
-if(genero == "F")
-    console.log("Cidadã Emancipada? ", genf);
-
-if(genero == "M")
-    console.log("Cidadão Emancipado? ", genm);
+console.log('Cidadão emancipado? ' + emancipado); 
 
 
 

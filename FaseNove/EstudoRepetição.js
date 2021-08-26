@@ -1,19 +1,21 @@
 // Estudo de repetição - laço for (repetição definida)
 
+const PromptSync = require("prompt-sync");
+
 //for (i = inicialização; i <>= quanto o código deve se repetir; i como variável se comporta a cada repetição)
 
 //contagem de 1 a 10 
 
 for (i = 1; i <= 10; i++) {
-  console.log(i);
+    console.log(i);
 }
 
 //impressão da tabuada de um número 
 
-var num = 2;
+var num = 1
 
 for(i = 1; i < 10; i++) {
-  var mult = console.log(num * i);
+    var mult = console.log(num * i);
 }
 
-var ola = prompt('ola')
+var mult = prompt(num * i);

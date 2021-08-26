@@ -1,0 +1,1 @@
+var mult = PromptSync(num * i);

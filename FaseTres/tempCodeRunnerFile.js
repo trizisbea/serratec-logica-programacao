@@ -1,14 +1,14 @@
-const limite = 8; 
-var qtde = 9; 
+var prompt = require("prompt-sync")();
 
-var liberado = (qtde < limite);
-var proximo = (qtde == 7);
+var genero = prompt('Digite seu gênero (F ou M) '); 
+var ano = prompt('Digite seu ano de nascimento ');
+var anonasc = parseInt(ano);
 
-if (liberado)
-    if(proximo) 
-    console.log("Pode entrar, mas não acompanhado");
+var mulher = genero == 'F';
+var homem = genero == 'M';
 
-    else 
-    console.log('Entrada liberada');
-else
-console.log('Aguarde um pouco');
+var anomulher = anonasc > 2000;
+var anohomem = anonasc > 2003;
+
+var emancipada = mulher && anomulher
+var emancipado = homem && anohomem

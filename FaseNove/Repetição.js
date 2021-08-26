@@ -5,15 +5,13 @@
 //contagem de 1 a 10 
 
 for (i = 1; i <= 10; i++) {
-  console.log(i);
+    console.log(i);
 }
 
 //impressão da tabuada de um número 
 
-var num = 2;
+var num = prompt('Escolha um número de 1 a 9: ');
 
 for(i = 1; i < 10; i++) {
-  var mult = console.log(num * i);
+    var mult = console.log(num * i);
 }
-
-var ola = prompt('ola')

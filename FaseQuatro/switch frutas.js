@@ -1,4 +1,4 @@
-var fruta = 'banana';
+var fruta = 'abacaxi';
 
 switch(fruta) {
     case 'abacaxi':
@@ -11,6 +11,8 @@ switch(fruta) {
     default: 
     console.log('Sem informações sobre a fruta');
 }
+
+//com emojis
 
 const fruta = '🍌';
 
